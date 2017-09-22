@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projac", "Projac\Projac.csproj", "{359863ED-13EA-4C04-BF6F-C9CF611A7129}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projac.Connector.Tests", "Projac.Connector.Tests\Projac.Connector.Tests.csproj", "{EAC883ED-BB1D-48C3-A0B2-D89D481BB74E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paramol.SQLite", "Paramol.SQLite\Paramol.SQLite.csproj", "{83F5E4B1-A8BA-4B7F-9686-09E5B4F9CB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projac.Connector.NetCore", "Projac.Connector.NetCore\Projac.Connector.NetCore.csproj", "{531D2B7F-3F4F-4CFD-AF0A-4F6F0D3CCC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projac.Connector.Tests.NetCore", "Projac.Connector.Tests.NetCore\Projac.Connector.Tests.NetCore.csproj", "{7DFA4E2F-2330-45A6-8EED-6E1CC54B7C02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,14 @@ Global
 		{83F5E4B1-A8BA-4B7F-9686-09E5B4F9CB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F5E4B1-A8BA-4B7F-9686-09E5B4F9CB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F5E4B1-A8BA-4B7F-9686-09E5B4F9CB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{531D2B7F-3F4F-4CFD-AF0A-4F6F0D3CCC9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531D2B7F-3F4F-4CFD-AF0A-4F6F0D3CCC9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531D2B7F-3F4F-4CFD-AF0A-4F6F0D3CCC9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531D2B7F-3F4F-4CFD-AF0A-4F6F0D3CCC9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFA4E2F-2330-45A6-8EED-6E1CC54B7C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFA4E2F-2330-45A6-8EED-6E1CC54B7C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFA4E2F-2330-45A6-8EED-6E1CC54B7C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFA4E2F-2330-45A6-8EED-6E1CC54B7C02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +85,10 @@ Global
 		{1C52A225-809B-44AF-8E8C-B5A44A4B1E9D} = {1C94919D-B674-4DB4-A989-B7F0B4D400E1}
 		{EAC883ED-BB1D-48C3-A0B2-D89D481BB74E} = {1C94919D-B674-4DB4-A989-B7F0B4D400E1}
 		{83F5E4B1-A8BA-4B7F-9686-09E5B4F9CB21} = {24478CDC-4A58-40F6-A042-E19252568BD6}
+		{531D2B7F-3F4F-4CFD-AF0A-4F6F0D3CCC9B} = {1C94919D-B674-4DB4-A989-B7F0B4D400E1}
+		{7DFA4E2F-2330-45A6-8EED-6E1CC54B7C02} = {1C94919D-B674-4DB4-A989-B7F0B4D400E1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBDC9C11-833F-4529-8D8D-5B4A6A3BA77A}
 	EndGlobalSection
 EndGlobal
